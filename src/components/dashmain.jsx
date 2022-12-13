@@ -29,7 +29,7 @@ function dashmain() {
         createData('Gingerbread', 356, 16.0, 49),
     ];
     return (
-        <Item id="tablec">
+        <Item id="tablec1">
         <TableContainer>
                     <Table sx={{ minWidth: 650 }} aria-label="simple table">
                         <TableHead>

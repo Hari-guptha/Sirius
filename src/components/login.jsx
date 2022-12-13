@@ -77,7 +77,7 @@ const Login = () => {
 
                                 <Grid item>
                                     <Button type="submit" fullWidth id="navbtn3" variant="contained">
-                                        <Link to="/dashboard" sx={{color:"white"}}> LOGIN</Link>
+                                        <Link id="navitem2" to="/dashboard" sx={{color:"white"}}> LOGIN</Link>
                                     </Button>
                                 </Grid>
                             </Grid>

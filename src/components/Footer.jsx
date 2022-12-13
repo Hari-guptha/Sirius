@@ -7,7 +7,6 @@ function Footer() {
         <div>
             <Box id="footer" >
                 Developer by Sirius Team
-                <img id="footerimg" alt="" src={require("../assets/img/footer.gif")} />
             </Box>
         </div>
     )

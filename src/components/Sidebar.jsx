@@ -9,7 +9,7 @@ import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 
 function Navbar() {
     const Item = styled(Box)(({ theme }) => ({
-        backgroundColor: "#03dfc1",
+        backgroundColor: "white",
         padding:"25px 40px",
         textAlign: 'left',
         fontSize:"20px",

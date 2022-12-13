@@ -5,16 +5,35 @@ import CloseIcon from '@mui/icons-material/Close';
 import React, { useState } from 'react'
 import "../assets/css/dash.css"
 import { Link } from 'react-router-dom';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
 function Navbar() {
     const [menu, setmenu] = useState(false)
+    const [menut, setmenut] = useState(false)
     return (
         <>
             <AppBar position="sticky">
                 <Box id="tpc" sx={{ display: "flex", justifyContent: "space-between", background: "#03dfc1" }}>
                     <MenuIcon sx={{ p: "20px", color: "white", display: { xs: "block", sm: "none" } }} onClick={e => setmenu(true)} />
-                    <Avatar  id="ava" alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                    <Avatar id="ava" alt="Remy Sharp" src="/static/images/avatar/1.jpg" onClick={e=>setmenut(true)} />
                 </Box>
             </AppBar>
+            <Menu
+                id="demo-positioned-menu"
+                aria-labelledby="demo-positioned-button"
+                open={menut}
+                onClose={e=>setmenut(false)}
+                anchorOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
+                }}
+                transformOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
+                }}
+            >
+                <MenuItem><Link id="navitem12" to='/'>Logout</Link></MenuItem>
+            </Menu>
             {/* --------------------------------------------mobile------------------------------------------- */}
             <Drawer open={menu}
                 onClose={e => setmenu(false)}>

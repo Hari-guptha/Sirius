@@ -8,7 +8,7 @@
     color: rgb(0, 0, 0);
 }
 #box1{
-    background-color:#03dfc1;
+    background-color:#ffffff;
     height: 100vh;
 }
 #logo2 {
@@ -21,7 +21,11 @@
 
 #tablec{
     width: 60%;
-    margin:10% 15%;
+    margin:7% 15%;
+}
+#tablec1{
+    width: 60%;
+    margin:9.9% 15%;
 }
 
 @media only screen and (max-width: 600px){
@@ -30,6 +34,26 @@
     }
     #tablec{
         width: 80%;
-        margin:10px 5px;
+        margin:36% 5px;
+        
     }
+    #tablec1{
+        width: 80%;
+        margin:42% 5px;
+    }
+}
+
+#navitem12{
+    text-decoration: none;
+}
+#navitem12:hover{
+    text-decoration: none;
+    color: #03dfc1;
+}
+
+#navitem2:hover{
+    color: #03dfc1;
+}
+#sidebarc:hover{
+    color: #03dfc1;
 }
