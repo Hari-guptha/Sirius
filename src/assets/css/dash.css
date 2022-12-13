@@ -1,0 +1,35 @@
+#logo2{
+    width: 70px;
+    padding:20px 20%;
+}
+
+#sidebarc{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#box1{
+    background-color:#03dfc1;
+    height: 100vh;
+}
+#logo2 {
+    width: 70px;
+    padding: 30px 60px;
+}
+#ava{
+    margin:10px 10px 10px  96%;
+}
+
+#tablec{
+    width: 60%;
+    margin:10% 15%;
+}
+
+@media only screen and (max-width: 600px){
+    #ava{
+            margin-left: 56%;
+    }
+    #tablec{
+        width: 80%;
+        margin:10px 5px;
+    }
+}

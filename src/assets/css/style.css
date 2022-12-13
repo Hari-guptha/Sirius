@@ -1,0 +1,253 @@
+/* -----------------------------------------Navbar------------------------------------------------ */
+#logo {
+    width: 70px;
+    padding: 10px;
+}
+#navbtn3{
+    background-color:#57efc9;
+    border-radius: 5px;
+    padding:5px 20px;
+    color:rgb(255, 255, 255);
+}
+#navbtn3:hover{
+    background-color: #aef1e8 ;
+}
+#navitem {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+#navitem:hover {
+    color: #03DFC1;
+}
+
+#navitem2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    padding: 5px 70px;
+}
+
+#logo2 {
+    width: 70px;
+    padding: 30px 60px;
+}
+
+/* -----------------------------------------Main------------------------------------------------ */
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#mainbtn {
+    background-color: #03DFC1;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+#mainimg {
+    width: 70%;
+    padding:80px 70px ;
+}
+
+#main {
+    margin-top: 33%;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-top: 0;
+        padding: 0px 35px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    #mainimg {
+        width: 60%;
+        padding:40px 70px ;
+    }
+    h4 {
+        font-size: 14px;
+    }
+
+    #mainbtn {
+        background-color: #03DFC1;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        border-radius: 20px;
+        padding: 10px 30px;
+        justify-content: center;
+    }
+}
+
+
+/* ---------------------------------------Features--------------------------------------------- */
+
+#card{
+    padding:10px 30px;
+    margin:10px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 170px;
+    display: flex;
+}
+#cardimg{
+    padding:50px 10px;
+    width:100px;
+    height: 80px;
+}
+#heading{
+    text-align: center;
+    padding:50px 0;
+}
+#cheading{
+    padding:0px 10px;
+    margin-top: 50px;
+}
+#ccontent{
+    padding:10px 10px;
+}
+@media only screen and (max-width: 600px) {
+    #cheading{
+        font-size: 15px;
+        margin-top:20px ;
+    }
+    #ccontent{
+        font-size: 10px;
+    }
+    #cardimg{
+        width:70px;
+        padding:15px 5px;
+    }
+    #card{
+        height: 130px;
+    }
+}
+/* --------------------------------------Other Modules--------------------------------------- */
+
+#mainimg2 {
+    width: 70%;
+    padding-top:80px;
+    padding:0px 70px ;
+}
+
+#main2 {
+    margin-top: 33%;
+    padding-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    #main2 {
+        margin-top: 100px;
+        padding: 0px 35px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    #mainimg2 {
+        width: 70%;
+        padding:0px 40px ;
+    }
+    h4 {
+        font-size: 14px;
+    }
+}
+
+
+
+#mainimg3 {
+    width: 70%;
+    padding-top:0px 70%;
+}
+
+#mainimg31 {
+    width: 70%;
+    padding-top:0px 70%;
+    padding-left:90px;
+}
+
+
+#main3 {
+    margin-top: 30%;
+    padding-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    #main3 {
+        margin-top: 30px;
+        padding: 0px 10%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    #mainimg3 {
+        width: 70%;
+        padding-left: 15%;
+    }
+    #mainimg31 {
+        width: 70%;
+        padding-top:0px 40%;
+        padding-left:60px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+}
+
+#heading2{
+    text-align: center;
+    padding-top:150px;
+}
+
+
+#footer{
+    background-color: #03DFC1;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+/* --------------------------Login-------------------- */
+
+#logicon{
+    width:100px;
+    padding-left: 35%;
+    padding-bottom: 50px;
+}
+
+#logcard{
+    padding:20px;
+    margin:0% 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 600px) {
+    #logicon{
+        padding-left: 30%;
+        padding-bottom: 50px;
+    }
+}
+
+/* ----------------------------------Footer------------------------------------------------------ */
+
+#footerimg{
+    width:0%;
+}
+
+
+
